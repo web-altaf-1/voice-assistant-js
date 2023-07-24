@@ -81,6 +81,9 @@ function read(text) {
     else if (text == "humayra link") {
         speech.text = "https://www.facebook.com/humayra.himu.77736310"
     }
+    else if (text == "Humaira link") {
+        speech.text = "https://www.facebook.com/humayra.himu.77736310"
+    }
     else if (text == "humaira") {
         speech.text = "https://www.facebook.com/humayra.himu.77736310"
     }
