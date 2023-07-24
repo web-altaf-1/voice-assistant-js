@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexa</title>
+    <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2016/10/02/00/53/a-1708752_960_720.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Personal Assistant for Md Altaf Hossen</h1>
+        <hr>
+        <i onclick="recognition.start()" class="fa-solid fa-microphone"></i>
+        <div>
+            <p id="para"></p>
+        </div>
+        <div>
+            <p id="res"></p>
+        </div>
+        <div>
+            <p id="link" class="link">If you see my boss photo , please click <span>&#10140;</span> <a
+                    class="photo-style" href="photo.html">here</a></p>
+            <p id="album" class="link">If you see her details , please click <span>&#10140;</span> <a
+                    class="photo-style" href="album.html">here</a></p>
+        </div>
+    </div>
+    <div class="container2 d-sm-none " id="altaf">
+        <img class="img-altaf" src="./images/altaf.png" alt="">
+        <br>
+        <button class="close-button" id="close">Close</button>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
